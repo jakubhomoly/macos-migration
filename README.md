@@ -19,8 +19,11 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
 ```
 
-Install all the packages
+Install zsh and all the packages
 
 ```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 brew bundle --file ~/.mmigrate/brew/Brewfile
 ```
+
