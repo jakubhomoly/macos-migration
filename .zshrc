@@ -108,3 +108,10 @@ alias git='LC_ALL=en_US git'
 alias pm2="npx pm2"
 alias fixsound="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+alias dcu="docker-compose up"
+alias dcd="docker-compose down"
+alias dcb="docker-compose build"
+alias dcbf="docker-compose build --no-cache"
+
+alias yw="yarn workspace"
