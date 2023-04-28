@@ -116,7 +116,7 @@ alias dcbf="docker-compose build --no-cache"
 alias yw="yarn workspace"
 source $(brew --prefix zsh-syntax-highlighting)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-export GITHUB_TOKEN='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'
+export GITHUB_TOKEN=
 
 alias sail='[ -f sail ] && sh sail || sh ./vendor/bin/sail'
 alias sart="sail artisan"
